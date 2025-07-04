@@ -51,7 +51,7 @@ class Analysis_Code:
         
     # Response를 튜닝하기 위한 프롬프트 지정    
     def setPrompt(self):
-        #promtp는 위 "기본 틀" 에서 코드 분석 FLOW에 대한 정보 아래는 임시 예시
+        #promtp는 위 "기본 틀" 에서 코드 분석 FLOW는 아래에 구체적으로 작성할 것
         self.prompt =   """
                         Python Code 문제와 사용자가 작성한 정답 코드를 보여줄테니 코드에 대해서 분석을 하고 분석 결과를 보여줄 것.
                         코드는 Python 언어로 이루어진 코드이며 아래의 분석 방법에 따라 분석할 것.
