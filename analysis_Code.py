@@ -132,6 +132,6 @@ class Analysis_Code:
 
 # if __name__=="__main__":
 #     analyzer = Analysis_Code()
-#     quiz = "0부터 100까지 출력하는 반복문 작성하세요"  # 실제 생성된 퀴즈 문제를 넣을거에요 다혜야.
+#     quiz = "0부터 100까지 출력하는 반복문 작성하세요"  # 실제 생성된 퀴즈 문제를 넣을거에요.
 #     user_code = "for i in rnage(100):\n pront(i)"   # 실제 사용자가 작성한 코드를 넣을거에요.
 #     analyzer.run(quiz,user_code)
