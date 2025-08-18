@@ -23,6 +23,7 @@ class Quizgen:
         self.llm = ChatOpenAI(model= "gpt-4o",temperature = .5)
 
 #FSL을 위한 파일 탐색, 폴더 데이터 갯수 만큼 데이터 가져오기
+#문제 Topic 만큼 폴더 탐색 및 데이터 검색 & LOAD
     def count_files_in_folder(self,folder_path):
         files = os.listdir(folder_path)
         
