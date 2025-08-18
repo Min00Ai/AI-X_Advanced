@@ -33,7 +33,7 @@ def load_json_files(directory_path):
                         documents.append(doc)
     return documents
 
-# 문서 로드, 색인
+# RAG 문서 로드, 색인
 def load_and_index_documents(directory_path, chunk_size=300, chunk_overlap=0):
     documents = load_json_files(directory_path)
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
