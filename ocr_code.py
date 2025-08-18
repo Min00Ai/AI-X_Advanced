@@ -7,7 +7,7 @@ from transformers import pipeline  #STT
 import os
 from moviepy.editor import VideoFileClip, AudioFileClip
 
-# Tesseract OCR 설정
+# Tesseract OCR 설정 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 def detect_significant_change(current_frame, prev_frame, threshold=50000):
