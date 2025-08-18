@@ -67,7 +67,7 @@ class VideoOCR:
             '-ar', '44100',  # 샘플 레이트 설정
             '-ac', '2',  # 오디오 채널 수 설정
             '-ab', '192k',  # 오디오 비트레이트 설정
-            audio_file_name  # 오디오 출력 파일 명  ############## 이걸 조절해서 해야할듯
+            audio_file_name  # 오디오 출력 파일 명
         ]
         pipe = subprocess.Popen(ffmpeg_command, stdout=subprocess.PIPE,stderr=subprocess.PIPE)
         width, height, fps = self.get_video_resolution(self.urls[video_index])
