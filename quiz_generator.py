@@ -17,7 +17,6 @@ from langchain.prompts import FewShotChatMessagePromptTemplate
 
 class Quizgen:
     def __init__(self):
-# FSL 참고용(랭체인) 리펙터링 필요함 그냥 FSL 느낌용 코드라고 봐주세요
 
         os.environ['OPENAI_API_KEY'] = self.API_KEY
         self.llm = ChatOpenAI(model= "gpt-4o",temperature = .5)
